@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.088" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Store login" name="login with multiple data - Example #1.1" time="8.058">
+<system-out><![CDATA[
+Given I navigated to login page.............................................passed
+When I insert "mercury" and "mercury".......................................passed
+And I clicked on signin button..............................................passed
+Then Its navigated to the web page "Login Successfully".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Store login" name="login with multiple data - Example #1.2" time="7.257">
+<system-out><![CDATA[
+Given I navigated to login page.............................................passed
+When I insert "mercury" and "aaa"...........................................passed
+And I clicked on signin button..............................................passed
+Then Its navigated to the web page "Enter your userName and password correct".passed
+]]></system-out>
+</testcase>
+<testcase classname="Store login" name="login with multiple data - Example #1.3" time="6.704">
+<system-out><![CDATA[
+Given I navigated to login page.............................................passed
+When I insert "ssss" and "mercury"..........................................passed
+And I clicked on signin button..............................................passed
+Then Its navigated to the web page "Enter your userName and password correct".passed
+]]></system-out>
+</testcase>
+</testsuite>
